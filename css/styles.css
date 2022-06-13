@@ -49,7 +49,7 @@ ul{
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.02em;
 }
 .address-link:hover{
@@ -90,7 +90,7 @@ ul{
     color: var(--header-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -102,7 +102,7 @@ ul{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .activities-header{
@@ -110,7 +110,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -130,7 +130,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -139,7 +139,6 @@ ul{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -148,7 +147,6 @@ ul{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -177,7 +175,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     position: relative;
@@ -200,7 +198,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 .portfolio-paragraph{
@@ -208,6 +206,6 @@ ul{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.88;
     letter-spacing: 0.03em;
 }
