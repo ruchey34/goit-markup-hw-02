@@ -26,6 +26,9 @@ ul{
     font-weight: 700;
     font-size: 26px;
 }
+.logo-reverse{
+    color: var(--header-bg-color);
+}
 .logo-beginning {
     color: var(--animation-color);
 }
@@ -59,7 +62,7 @@ ul{
     color: var(--header-bg-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -74,21 +77,42 @@ ul{
     border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
 }
 .hero-btn:hover{
    background-color: var(--animation-button);
 }
 .benefits-header{
     color: var(--header-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .benefits-item{
     width: 270px;
 }
+.benefits-text{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+}
 .activities-header{
     color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .team{
     background-color: var(--team-bg-color);
@@ -103,21 +127,69 @@ ul{
 }
 .team-header{
     color: var(--header-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name{
+    color: var(--header-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-paragraph{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .footer{
     background-color: var(--footer-bg-color);
 }
 .footer-paragraph{
     color: var(--header-bg-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-item{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .portfolio-btn{
-    background: var(--team-bg-color);
+    color: var(--header-color);
+    background-color: var(--team-bg-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    letter-spacing: 0.03em;
     position: relative;
     cursor: pointer;
 }
+.portfolio-btn:hover{
+    background-color: var(--animation-button);
+    color: var(--header-bg-color);
+}
 .btn-active{
     background-color: var(--animation-button);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--header-bg-color);
     border-radius: 4px;
 }
 .portfolio-item{
@@ -128,5 +200,14 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+}
+.portfolio-paragraph{
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+    letter-spacing: 0.03em;
 }
